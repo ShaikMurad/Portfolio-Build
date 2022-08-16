@@ -1,9 +1,10 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import { Link, Button } from "react-scroll";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { animateScroll as scroll } from "react-scroll";
 const Home = () => {
   return (
     <div
@@ -25,7 +26,7 @@ const Home = () => {
         </p>
         <div>
           <button className="text-black group rounded-lg border-black border-2 px-6 py-2 my-2 flex items-center hover:bg-black hover:text-white ">
-            <Link to="work" smooth={true} duration={500}>
+            <Link className="group" to="work" smooth={true} duration={500}>
               View Work
             </Link>
             <span className="pl-3 group-hover:rotate-90 duration-300">

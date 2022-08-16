@@ -4,13 +4,14 @@ import KK from "../assests/KK.png";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#C1EFFF] to-zinc-50">
-      <div>
+      <div onClick={() => scroll.scrollToTop()}>
         <img src={KK} alt="Logo Image" style={{ width: "120px" }} />
       </div>
 
