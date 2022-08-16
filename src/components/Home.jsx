@@ -1,6 +1,9 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 const Home = () => {
   return (
     <div
@@ -29,6 +32,46 @@ const Home = () => {
               <HiArrowNarrowRight />
             </span>
           </button>
+        </div>
+        <div>
+          <div className="flex row smallContainer">
+            <div className="flex-col">
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                href="https://www.linkedin.com/in/karthikeyan-k-816662149/"
+              >
+                <FaLinkedin size={30} />
+                <span className="ml-3">Linkedin</span>
+              </a>
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                href="https://github.com/KarthikeyanKanniappan"
+              >
+                <FaGithub size={30} />
+                <span className="ml-3">Github</span>
+              </a>
+            </div>
+            <div className="flex-col">
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                href="https://1drv.ms/b/s!AtEayd4esf4dg0t3Ui-r17PkjDF-"
+              >
+                <BsFillPersonLinesFill size={30} />
+                <span className="ml-3">Resume</span>
+              </a>
+              <a
+                className="flex items-center  py-2 my-2 "
+                target="_blank"
+                href="https://accounts.google.com/accountchooser/signinchooser?flowName=GlifWebSignIn&flowEntry=AccountChooser"
+              >
+                <HiOutlineMail size={30} />
+                <span className="ml-3">Email</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

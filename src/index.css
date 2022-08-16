@@ -36,3 +36,9 @@
   ) !important;
 }
 /* bg-gradient-to-r from-[#C1EFFF] to-zinc-50 */
+
+@media screen and (min-width: 1024px) {
+  .smallContainer {
+    display: none;
+  }
+}
