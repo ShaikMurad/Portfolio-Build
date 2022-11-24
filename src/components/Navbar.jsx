@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#C1EFFF] to-zinc-50">
-      <div onClick={() => scroll.scrollToTop()}>
+      <div className="cursor-pointer" onClick={() => scroll.scrollToTop()}>
         <img src={KK} alt="Logo Image" style={{ width: "120px" }} />
       </div>
 

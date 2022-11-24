@@ -1,4 +1,15 @@
 import React from "react";
+import WorkSet from "./WorkSet";
+
+const data = [
+  {
+    pic: "https://images.unsplash.com/photo-1653202293335-92f6ace9943f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80",
+    about: "Platform for renting equipments made easier",
+    demoLink: "https://equiphunter.netlify.app",
+    source: "https://github.com/KarthikeyanKanniappan/Hackathon-2",
+    sourceBack: "https://github.com/KarthikeyanKanniappan/Hackathon2-server",
+  },
+];
 
 const Work = () => {
   return (
@@ -12,34 +23,7 @@ const Work = () => {
         </div>
 
         {/* container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Grid item */}
-          <div
-            style={{
-              backgroundImage: `url(https://lh3.googleusercontent.com/VhzByKYSbQRhETbeOJYebXG9cFRWFcAkqIXl9l11iiHfuJHer2e57_3Hvscf4IVkVySr)`,
-            }}
-            className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold tracking-wider">
-                React JS Application In progress
-              </span>
-              <div className="pt-8 text center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg  text-white  bg-black">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-white text-lg bg-black">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <WorkSet data={data} />
       </div>
     </div>
   );
