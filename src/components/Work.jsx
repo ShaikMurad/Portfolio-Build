@@ -9,6 +9,21 @@ const data = [
     source: "https://github.com/KarthikeyanKanniappan/Hackathon-2",
     sourceBack: "https://github.com/KarthikeyanKanniappan/Hackathon2-server",
   },
+  {
+    pic: "https://capacityplanner.netlify.app/static/media/clipart.4a3bd487f9dac9e7c4f3.png",
+    about: "Dashboard web app for managing work force",
+    demoLink: "https://capacityplanner.netlify.app",
+    source: "https://github.com/KarthikeyanKanniappan/Guvi-Capstone",
+    sourceBack:
+      "https://github.com/KarthikeyanKanniappan/Guvi-Capstone-BackEnd",
+  },
+  {
+    pic: "https://images.unsplash.com/photo-1504707748692-419802cf939d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80",
+    about: "Personal Blog (Work In Progress)",
+    demoLink: "",
+    source: "https://github.com/KarthikeyanKanniappan/Blog-frontEnd",
+    sourceBack: "https://github.com/KarthikeyanKanniappan/Blog_server",
+  },
 ];
 
 const Work = () => {
