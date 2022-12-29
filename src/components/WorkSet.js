@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkSet = ({ data }) => {
   return (
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-6">
       {/* Grid item */}
       {data.map((el, i) => {
         return (
@@ -34,6 +34,19 @@ const WorkSet = ({ data }) => {
                     BackEnd
                   </button>
                 </a>
+              </div>
+
+              <div style={{ display: "flex" }}>
+                {el.skills.map((list, i) => {
+                  return (
+                    <div
+                      key={i}
+                      className="text-center rounded-lg p-1 mr-1 text-white text-lg bg-black "
+                    >
+                      {list}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
