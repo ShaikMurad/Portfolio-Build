@@ -19,17 +19,17 @@ const WorkSet = ({ data }) => {
                 {el.about}
               </span>
               <div className="pt-8 text center">
-                <a href={`${el.demoLink}`}>
+                <a target="_blank" href={`${el.demoLink}`}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg  text-white  bg-black">
                     Visit
                   </button>
                 </a>
-                <a href={`${el.source}`}>
+                <a target="_blank" href={`${el.source}`}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-white text-lg bg-black">
                     FrontEnd
                   </button>
                 </a>
-                <a href={`${el.sourceBack}`}>
+                <a target="_blank" href={`${el.sourceBack}`}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-white text-lg bg-black">
                     BackEnd
                   </button>
