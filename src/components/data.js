@@ -2,8 +2,8 @@ const data = [
   {
     pic: "https://images.unsplash.com/photo-1653202293335-92f6ace9943f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80",
     about: "Platform for renting equipments made easier",
-    demoLink: "https://equiphunter.netlify.app",
-    source: "https://github.com/KarthikeyanKanniappan/Hackathon-2",
+    demoLink: "https://equip-hunter.netlify.app/",
+    source: "https://github.com/ShaikMurad/renting-equipment",
     sourceBack: "https://github.com/KarthikeyanKanniappan/Hackathon2-server",
     skills: ["React", "Bootstrap", "mongoDB", "stripe", "Node", "JWT"],
   },

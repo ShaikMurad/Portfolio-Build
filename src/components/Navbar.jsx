@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import KK from "../assests/KK.png";
+
+// import sm from "../assests/sm.jpg";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#C1EFFF] to-zinc-50">
       <div className="cursor-pointer" onClick={() => scroll.scrollToTop()}>
-        <img src={KK} alt="Logo Image" style={{ width: "120px" }} />
+        {/* <img src={sm} alt="Logo Image" style={{ width: "110px" }} /> */}
       </div>
 
       {/* menu */}
@@ -91,7 +92,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full"
               target="_blank"
-              href="https://www.linkedin.com/in/karthikeyan-k-816662149/"
+              href="https://www.linkedin.com/in/murad-cherry-1904m2m/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -100,7 +101,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full"
               target="_blank"
-              href="https://github.com/KarthikeyanKanniappan"
+              href="https://github.com/ShaikMurad"
             >
               Github <FaGithub size={30} />
             </a>
@@ -119,7 +120,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full"
               target="_blank"
-              href="https://drive.google.com/file/d/1uqkQu7D3nm1l_YS6h81KHNGiO2XfYtva/view?usp=sharing"
+              href="https://drive.google.com/file/d/1B09gvhRj0xmnUig8MGW3Q9cPCFRIYrXL/view?usp=sharing"
             >
               Resume
               <BsFillPersonLinesFill size={30} />

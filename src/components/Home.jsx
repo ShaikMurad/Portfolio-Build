@@ -15,7 +15,7 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-2xl sm:text-4xl">Hi, I'm </p>
         <h1 className=" pt-3 text-4xl sm:text-7xl font-bold">
-          Karthikeyan Kanniappan
+          Shaik Murad
         </h1>
         <h2 className=" pb-2 text-2xl sm:text-4xl font-bold">
           A Newbie Full stack Developer
@@ -40,7 +40,7 @@ const Home = () => {
               <a
                 className="flex items-center pr-3 py-2 my-2"
                 target="_blank"
-                href="https://www.linkedin.com/in/karthikeyan-k-816662149/"
+                href="https://www.linkedin.com/in/murad-cherry-1904m2m/"
               >
                 <FaLinkedin size={30} />
                 <span className="ml-3">Linkedin</span>
@@ -48,7 +48,7 @@ const Home = () => {
               <a
                 className="flex items-center pr-3 py-2 my-2"
                 target="_blank"
-                href="https://github.com/KarthikeyanKanniappan"
+                href="https://github.com/ShaikMurad"
               >
                 <FaGithub size={30} />
                 <span className="ml-3">Github</span>
@@ -58,7 +58,7 @@ const Home = () => {
               <a
                 className="flex items-center pr-3 py-2 my-2"
                 target="_blank"
-                href="https://drive.google.com/file/d/1uqkQu7D3nm1l_YS6h81KHNGiO2XfYtva/view?usp=sharing"
+                href="https://drive.google.com/file/d/1B09gvhRj0xmnUig8MGW3Q9cPCFRIYrXL/view?usp=sharing"
               >
                 <BsFillPersonLinesFill size={30} />
                 <span className="ml-3">Resume</span>

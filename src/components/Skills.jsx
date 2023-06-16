@@ -4,7 +4,8 @@ import github from "../assests/github.png";
 import html from "../assests/html.png";
 import node from "../assests/node.png";
 import react from "../assests/react.png";
-import tailwind from "../assests/tailwind.png";
+
+import mongodb from "../assests/mongodb.jpg";
 import javascript from "../assests/javascript.png";
 import bootstrap from "../assests/bootstrap.png";
 
@@ -51,8 +52,8 @@ const Skills = () => {
             <p className="my-4">NODE JS</p>
           </div>
           <div className="shadow-md  hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND CSS</p>
+            <img className="w-20 mx-auto" src={mongodb} alt="HTML icon" />
+            <p className="my-4">MONGO-DB</p>
           </div>
         </div>
       </div>
